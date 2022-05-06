@@ -1,0 +1,46 @@
+:root {
+    --day-color: #00bfff;
+    --afternoon-color: #AA7799;
+    --night-color: #38285C;
+}
+
+body {
+    background-color: var(--day-color);
+}
+
+form {
+    display: flex;
+    align-content: center;
+    float: right;
+}
+#mt {
+    background-color: hsla(120, 100%, 50%, 0);
+    border-color: hsla(120, 100%, 50%, 0);
+}
+
+#Day {
+    background-color: hsla(120, 100%, 50%, 0);
+    border-color: hsla(120, 100%, 50%, 0);
+}
+
+#Night {
+    background-color: hsla(120, 100%, 50%, 0);
+    border-color: hsla(120, 100%, 50%, 0);
+}
+
+.day {
+    background-color: var(--day-color);
+    transition: all 1s ease;
+}
+
+.afternoon {
+    background-color: var(--afternoon-color);
+    transition: all 1s ease;
+
+}
+
+.night {
+    background-color: var(--night-color);
+    transition: all 1s ease;
+
+}
